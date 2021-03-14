@@ -44,6 +44,16 @@ article.nav {
 
 }
 
+#projects .card {
+	min-height: 300px;
+}
+
+@media only screen and (max-width: 980px) {
+	#projects .card {
+		min-height: 100px;
+	}
+}
+
 #projects a {
 	text-decoration: none;
 	color: black;

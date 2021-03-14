@@ -16,7 +16,7 @@
 	<link rel="stylesheet" type="text/css" href="styles/styles.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js" integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ==" crossorigin="anonymous"></script>
 	<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
-	<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
 	<scripts src="scripts/vue_markus.js"></script>
 </head>
 <body>
@@ -177,7 +177,6 @@
 				repos : [],
 				addToArray : function(data){
 					data.forEach(element => {
-						console.log(element)
 						this.repos.push({repo: element});
 					});
 				},
