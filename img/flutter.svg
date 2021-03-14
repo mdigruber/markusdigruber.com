@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="230px" height="285px" viewBox="0 0 230 285" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flutter</title>
+    <defs>
+        <linearGradient x1="43.8920865%" y1="43.8592815%" x2="56.1421442%" y2="56.1089009%" id="linearGradient-1">
+            <stop stop-color="#000000" stop-opacity="0.15" offset="20%"></stop>
+            <stop stop-color="#616161" stop-opacity="0.01" offset="85%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.0238420661%" y1="50.002857%" x2="100.02225%" y2="50.002857%" id="linearGradient-2">
+            <stop stop-color="#000000" stop-opacity="0.55" offset="20%"></stop>
+            <stop stop-color="#616161" stop-opacity="0.01" offset="85%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flutter" fill-rule="nonzero">
+            <path d="M43.8369185,186 L0,142.201483 L142.337669,0 L230,0 M230,131 L142.701232,131 L110,163.976891 L153.655113,208" id="Shape" fill-opacity="0.8" fill="#42A5F5"></path>
+            <polyline id="Path" fill="#0D47A1" points="110 252.01816 142.701232 285 230 285 153.655113 208"></polyline>
+            <polygon id="Path" fill="#42A5F5" points="66 208.005783 110 164 154 207.994217 110 252"></polygon>
+            <polygon id="Path" fill="url(#linearGradient-1)" points="109 251.875433 152.875433 208 159 214.124567 115.124567 258"></polygon>
+            <polyline id="Path" fill="url(#linearGradient-2)" points="110 252 175 229.445669 153.808597 208"></polyline>
+        </g>
+    </g>
+</svg>
