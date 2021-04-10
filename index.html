@@ -14,7 +14,7 @@
 	
 	<!-- Meta Stuff -->
 	<meta charset="utf-8">
-	<meta http-equiv="language" content="en" />
+	<meta http-equiv="language" content="en-us" />
 	<meta name="robots" content="index, follow" />
 	<meta name="description" content="Hi there! My name is Markus Digruber &#128104; and I'm a Software Developer. Feel free to check out my personal Website and connect with me via Linkedin or E-Mail."/>
 	<meta name="keywords" content="Markus Digruber, Digruber, Python, Java, Flutter, Git, JavaScript, Developer, Software, Tesla, Google, Computer, AI, Cats, Cat"/>
@@ -166,19 +166,19 @@
 	</body>
 	<script>
 		Vue.component("project", {
-		props: ['repo', ],
-		template: `
-		<div class="col-12 col-md-4 text-left">
-			<a v-bind:href="repo.repo.html_url" target="_blank"><div class="card">
-				<div class="card-header">
-					<h5>{{ repo.repo.full_name }}</h5>
-				</div>
-				<div class="card-body">
-					<p>{{ repo.repo.description }}</p>
-				</div>
-			</div></a>
-		</div>`
-	});
+			props: ['repo', ],
+			template: `
+			<div class="col-12 col-md-4 text-left">
+				<a v-bind:href="repo.repo.html_url" target="_blank"><div class="card">
+					<div class="card-header">
+						<h5>{{ repo.repo.full_name }}</h5>
+					</div>
+					<div class="card-body">
+						<p>{{ repo.repo.description }}</p>
+					</div>
+				</div></a>
+			</div>`
+		});
 		new Vue({
 			el: '#projects',
 			data : {
@@ -194,8 +194,7 @@
 				.get("https://api.github.com/users/mdigruber/repos")
 				.then(response => (this.addToArray(response.data)))
 			},
-			
-		})
+		});
 	</script>
 	<script>
 		var options = {
