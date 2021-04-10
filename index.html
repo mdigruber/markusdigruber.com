@@ -1,159 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130927317-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-		gtag('config', 'UA-130927317-1');
-	</script>
-	
-	<title>Markus Digruber &#128104; | Welcome to my Site </title>
-	
-	<!-- Meta Stuff -->
-	<meta charset="utf-8">
-	<meta http-equiv="language" content="en-us" />
-	<meta name="robots" content="index, follow" />
-	<meta name="description" content="Hi there! My name is Markus Digruber &#128104; and I'm a Software Developer. Feel free to check out my personal Website and connect with me via Linkedin or E-Mail."/>
-	<meta name="keywords" content="Markus Digruber, Digruber, Python, Java, Flutter, Git, JavaScript, Developer, Software, Tesla, Google, Computer, AI, Cats, Cat"/>
-	<link rel="canonical" href="http://www.markusdigruber.com" />
-	<link rel="alternate" hreflang="en-au" href="https://www.markusdigruber.com" />
-	<link rel="alternate" hreflang="en-gb" href="https://www.markusdigruber.com" />
-	<link rel="alternate" hreflang="en-us" href="https://www.markusdigruber.com" />
-	<link rel="alternate" hreflang="de-at" href="https://www.markusdigruber.com" />
-	<link rel="alternate" hreflang="de-de" href="https://www.markusdigruber.com" />
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130927317-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'UA-130927317-1');
+		</script>
+		
+		<title>Markus Digruber &#128104; | Welcome to my Site </title>
+		
+		<!-- Meta Stuff -->
+		<meta charset="utf-8">
+		<html lang="en">
+		<meta name="robots" content="index, follow" />
+		<meta name="description" content="Hi there! My name is Markus Digruber &#128104; and I'm a Software Developer. Feel free to check out my personal Website and connect with me via Linkedin or E-Mail."/>
+		<meta name="keywords" content="Markus Digruber, Digruber, Python, Java, Flutter, Git, JavaScript, Developer, Software, Tesla, Google, Computer, AI, Cats, Cat"/>
+		<link rel="canonical" href="http://www.markusdigruber.com" />
+		<link rel="alternate" hreflang="en-au" href="https://www.markusdigruber.com" />
+		<link rel="alternate" hreflang="en-gb" href="https://www.markusdigruber.com" />
+		<link rel="alternate" hreflang="en-us" href="https://www.markusdigruber.com" />
+		<link rel="alternate" hreflang="de-at" href="https://www.markusdigruber.com" />
+		<link rel="alternate" hreflang="de-de" href="https://www.markusdigruber.com" />
 
-	<!-- CSS Stuff -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="styles/styles.css">
-	
-	<!-- Script includes -->
-	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js" integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ==" crossorigin="anonymous"></script>
-	<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
-	<script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
-</head>
-<body>
-	<article class="nav">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-12">
-					<h1 class="name">Markus &#128104;</h1>
-				</div>
-			</div>
-		</div>
-	</article>
-	<article class="mobileintro">
-		<div class="container-fluid">
-			<div class="row rowborder text-center">
-				<div class="col-12 my-auto">
-					<h1 class="typed"></h1>
-				</div>
-			</div>
-		</div>
-	</article>
-	<article class="first-column">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-12 col-md-7">
-					<div class="row rowborder" id="projects">
-						<div class="col-12">
-							<h2>Projects</h2>
-						</div>
-						<project v-for="repo in repos" v-bind:key="repo.id" v-bind:repo="repo"></project>
-						<div class="col-12 justify-content-center d-flex">
-							<a class="btn btn-primary" href="https://github.com/mdigruber">all Projects</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-12 col-md-5">
-					<div class="row rowborder my-auto" id="contact">
-						<div class="col-12">
-							<h2>Contact</h2>					
-						</div>
-						<div class="col-4">
-							<a href="https://github.com/madigruber"><img src="img/github.svg" alt="Github Markus" title="Github Markus"></a>
-						</div>
-						<div class="col-4">
-							<a href="https://www.linkedin.com/in/markus-digruber"><img src="img/linkedin.svg" alt="Linkedin Markus" title="Linkedin Markus"></a>
-						</div>
-						<div class="col-4">
-							<a href="mailto:hello@markusdigruber.com"><img src="img/email.svg" alt="E-Mail Markus" title="E-Mail Markus"></a>
-						</div>
+		<!-- CSS Stuff -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="styles/styles.css">
+		
+		<!-- Script includes -->
+		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js" integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ==" crossorigin="anonymous"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+		<script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+	</head>
+	<body>
+		<article class="nav">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12">
+						<h1 class="name">Markus &#128104;</h1>
 					</div>
 				</div>
 			</div>
-		</div>
-	</article>
-	<article class="second-column">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-12 col-md-5">
-					<div class="row rowborder my-auto" id="skills">
-						<div class="col-12">
-							<h2>Skills</h2>
+		</article>
+		<article class="mobileintro">
+			<div class="container-fluid">
+				<div class="row rowborder text-center">
+					<div class="col-12 my-auto">
+						<h1 class="typed"></h1>
+					</div>
+				</div>
+			</div>
+		</article>
+		<article class="first-column">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12 col-md-7">
+						<div class="row rowborder" id="projects">
+							<div class="col-12">
+								<h2>Projects</h2>
+							</div>
+							<project v-for="repo in repos" v-bind:key="repo.id" v-bind:repo="repo"></project>
+							<div class="col-12 justify-content-center d-flex">
+								<a class="btn btn-primary" href="https://github.com/mdigruber">all Projects</a>
+							</div>
 						</div>
-						<div class="col-6 col-sm-6 col-md-4 col-lg-3">
-						   <a href="https://www.python.org/"><img src="img/python.svg" alt="Python" title="Python"></a>
-						</div>
-						<div class="col-6 col-sm-6 col-md-4 col-lg-3">
-						   <a href="https://www.java.com/en/"><img src="img/java.svg" alt="Java" title="Java"></a>
-						</div>
-						<div class="col-6 col-sm-6 col-md-4 col-lg-3">
-						   <a href="https://flutter.dev/"><img src="img/flutter.svg" alt="Flutter" title="Flutter"></a>
-						</div>
-						<div class="col-6 col-sm-6 col-md-4 col-lg-3">
-						   <a href="https://www.w3schools.com/js/"><img src="img/javascript.svg" alt="JavaScript" title="JavaScript"></a>
-						</div>
-						<div class="col-6 col-sm-6 col-md-4 col-lg-3">
-						   <a href="https://git-scm.com/"><img src="img/git.svg" alt="Git" title="Git"></a>
-						</div>
-						<div class="col-6 col-sm-6 col-md-4 col-lg-3">
-						   <a href="https://vuejs.org/"><img src="img/vue.svg" alt="VueJs" title="VueJs"></a>
-						</div>
-						<div class="col-6 col-sm-6 col-md-4 col-lg-3">
-						   <a href="https://www.mysql.com/"><img src="img/mysql.svg" alt="MySql" title="MySql"></a>
-						</div>
-						<div class="col-6 col-sm-6 col-md-4 col-lg-3">
-						   <a href="https://developer.apple.com/swift/"><img src="img/swift.svg" alt="Swift" title="Swift"></a>
+					</div>
+					<div class="col-12 col-md-5">
+						<div class="row rowborder my-auto" id="contact">
+							<div class="col-12">
+								<h2>Contact</h2>					
+							</div>
+							<div class="col-4">
+								<a href="https://github.com/madigruber"><img src="img/github.svg" alt="Github Markus" title="Github Markus"></a>
+							</div>
+							<div class="col-4">
+								<a href="https://www.linkedin.com/in/markus-digruber"><img src="img/linkedin.svg" alt="Linkedin Markus" title="Linkedin Markus"></a>
+							</div>
+							<div class="col-4">
+								<a href="mailto:hello@markusdigruber.com"><img src="img/email.svg" alt="E-Mail Markus" title="E-Mail Markus"></a>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-md-7">
-					<div class="row rowborder">
-						<div class="col-12">
-							<h2>About</h2>
-							<div class="row">
-								<div class="col-12 col-md-6">
-									<figure>
-										<img src="img/markus.jpg" title="It's a me, Markus">
-									</figure>
-								</div>
-								<div class="col-12  col-md-6">
-									<p>
-										Hi there! My name is Markus Digruber and I'm a Fullstack Developer.
-										I'm based in Tyrol/Austria and I'm always searching for some new challenges!
-										<br>
-										<br>
-										Passion about problem solving is what got me into code, being able to come up with creative solutions is what makes me stay.
-										<br>
-										<br>
-										I enjoy programming as much as I enjoy learning, I think both are equally fulfilling activities to me, and when I look for a job, continuous learning is a priority.
-										<br>
-										<br>
-										I usually spend my days coding something nice or learning new things.
-										If I'm not coding, you'll find me in the nature, taking photos, looking at some dank memes or playing with some cats! 🐈
-									</p>
+			</div>
+		</article>
+		<article class="second-column">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12 col-md-5">
+						<div class="row rowborder my-auto" id="skills">
+							<div class="col-12">
+								<h2>Skills</h2>
+							</div>
+							<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+							   <a href="https://www.python.org/"><img src="img/python.svg" alt="Python" title="Python"></a>
+							</div>
+							<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+							   <a href="https://www.java.com/en/"><img src="img/java.svg" alt="Java" title="Java"></a>
+							</div>
+							<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+							   <a href="https://flutter.dev/"><img src="img/flutter.svg" alt="Flutter" title="Flutter"></a>
+							</div>
+							<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+							   <a href="https://www.w3schools.com/js/"><img src="img/javascript.svg" alt="JavaScript" title="JavaScript"></a>
+							</div>
+							<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+							   <a href="https://git-scm.com/"><img src="img/git.svg" alt="Git" title="Git"></a>
+							</div>
+							<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+							   <a href="https://vuejs.org/"><img src="img/vue.svg" alt="VueJs" title="VueJs"></a>
+							</div>
+							<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+							   <a href="https://www.mysql.com/"><img src="img/mysql.svg" alt="MySql" title="MySql"></a>
+							</div>
+							<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+							   <a href="https://developer.apple.com/swift/"><img src="img/swift.svg" alt="Swift" title="Swift"></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-7">
+						<div class="row rowborder">
+							<div class="col-12">
+								<h2>About</h2>
+								<div class="row">
+									<div class="col-12 col-md-6">
+										<figure>
+											<img src="img/markus.jpg" title="It's a me, Markus">
+										</figure>
+									</div>
+									<div class="col-12  col-md-6">
+										<p>
+											Hi there! My name is Markus Digruber and I'm a Fullstack Developer.
+											I'm based in Tyrol/Austria and I'm always searching for some new challenges!
+											<br>
+											<br>
+											Passion about problem solving is what got me into code, being able to come up with creative solutions is what makes me stay.
+											<br>
+											<br>
+											I enjoy programming as much as I enjoy learning, I think both are equally fulfilling activities to me, and when I look for a job, continuous learning is a priority.
+											<br>
+											<br>
+											I usually spend my days coding something nice or learning new things.
+											If I'm not coding, you'll find me in the nature, taking photos, looking at some dank memes or playing with some cats! 🐈
+										</p>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</article>
+		</article>
 		<footer class="justify-content-center">
 			<div class="container-fluid">
 				<div class="row">
@@ -163,52 +163,52 @@
 				</div>
 			</div>
 		</footer>
-	</body>
-	<script>
-		Vue.component("project", {
-			props: ['repo', ],
-			template: `
-			<div class="col-12 col-md-4 text-left">
-				<a v-bind:href="repo.repo.html_url" target="_blank"><div class="card">
-					<div class="card-header">
-						<h5>{{ repo.repo.full_name }}</h5>
-					</div>
-					<div class="card-body">
-						<p>{{ repo.repo.description }}</p>
-					</div>
-				</div></a>
-			</div>`
-		});
-		new Vue({
-			el: '#projects',
-			data : {
-				repos : [],
-				addToArray : function(data){
-					data.forEach(element => {
-						this.repos.push({repo: element});
-					});
+		<script>
+			Vue.component("project", {
+				props: ['repo', ],
+				template: `
+				<div class="col-12 col-md-4 text-left">
+					<a v-bind:href="repo.repo.html_url" target="_blank"><div class="card">
+						<div class="card-header">
+							<h5>{{ repo.repo.full_name }}</h5>
+						</div>
+						<div class="card-body">
+							<p>{{ repo.repo.description }}</p>
+						</div>
+					</div></a>
+				</div>`
+			});
+			new Vue({
+				el: '#projects',
+				data : {
+					repos : [],
+					addToArray : function(data){
+						data.forEach(element => {
+							this.repos.push({repo: element});
+						});
+					},
 				},
-			},
-			mounted () {
-				axios
-				.get("https://api.github.com/users/mdigruber/repos")
-				.then(response => (this.addToArray(response.data)))
-			},
-		});
-	</script>
-	<script>
-		var options = {
-		  strings: ['System.out.println("Hey there!");',
-		  			'print("How are you?")',
-		  			'console.log("Hope you are fine!");',
-		  			'git commit -m "I\'m Markus"',
-		  			'println("Nice to meet you!")',
-		   			],
-		  showCursor: false,
-		  typeSpeed: 90,
-		  backSpeed: 120,
-		  smartBackspace: true,
-		};
-		var typed = new Typed('.typed', options);
-	</script>
+				mounted () {
+					axios
+					.get("https://api.github.com/users/mdigruber/repos")
+					.then(response => (this.addToArray(response.data)))
+				},
+			});
+		</script>
+		<script>
+			var options = {
+			  strings: ['System.out.println("Hey there!");',
+			  			'print("How are you?")',
+			  			'console.log("Hope you are fine!");',
+			  			'git commit -m "I\'m Markus"',
+			  			'println("Nice to meet you!")',
+			   			],
+			  showCursor: false,
+			  typeSpeed: 90,
+			  backSpeed: 120,
+			  smartBackspace: true,
+			};
+			var typed = new Typed('.typed', options);
+		</script>
+	</body>
 </html>
